@@ -36,7 +36,10 @@ int total = 0;
 	  total += args[f].length(); 
  }
 
-int mod = total % 10;
+String num = args[input];
+int number = Integer.parseInt(num);
+
+int mod = number % 10;
 
  System.out.println("\n" + "Amount of characters: " + total + "\n" + "Mod 10: " + mod);
   
