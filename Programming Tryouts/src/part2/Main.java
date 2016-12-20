@@ -32,7 +32,7 @@ System.out.print("\n");
  
 int total = 0; 
 
- for(int f = 0; f <= input; f += 1 ){
+ for(int f = 0; f <= input - 1 ; f += 1 ){
 	  total += args[f].length(); 
  }
 
